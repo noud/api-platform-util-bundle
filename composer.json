@@ -1,0 +1,34 @@
+{
+    "name": "noud/api-platform-util-bundle",
+    "description": "Utils bundle conform API-Platform",
+    "keywords": [
+        "users",
+        "API-Platform",
+        "Symfony",
+        "Bundle",
+        "symfony-bundle",
+        "bridge"
+    ],
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+          "name": "noud",
+          "email": "noud4@home.nl"
+        }
+    ],
+        "require": {
+        "php": ">=7.2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Noud\\UtilBundle\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Noud\\UtilBundle\\Tests\\": "tests"
+        }
+    }
+}
