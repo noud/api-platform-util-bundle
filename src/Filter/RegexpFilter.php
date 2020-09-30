@@ -11,6 +11,7 @@ final class RegexpFilter extends AbstractContextAwareFilter implements FilterInt
 {
     protected function filterProperty(string $property, $value, QueryBuilder $queryBuilder, QueryNameGeneratorInterface $queryNameGenerator, string $resourceClass, string $operationName = null)
     {
+        // @todo what why is this?
         // otherwise filter is applied to order and page as well
         if (
             !$this->isPropertyEnabled($property, $resourceClass) ||
